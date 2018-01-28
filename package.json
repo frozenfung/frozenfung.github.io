@@ -1,0 +1,28 @@
+{
+  "name": "frozenfung.github.io",
+  "version": "1.0.0",
+  "description": "My profolio",
+  "main": "index.js",
+  "scripts": {
+    "build-pages": "node ./build_scripts/builder.js",
+    "start": "concurrently --kill-others \"nodemon -e js,json,css,md -i build -x \\\"npm run build-pages\\\"\" \"live-server ./build\"",
+    "deploy": "git push origin src -f && git subtree split --prefix build -b master && git push -f origin master:master && git branch -D master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frozenfung/frozenfung.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frozenfung/frozenfung.github.io/issues"
+  },
+  "homepage": "https://github.com/frozenfung/frozenfung.github.io#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "fs-extra": "^5.0.0",
+    "live-server": "^1.2.0",
+    "markdown-it": "^8.4.0",
+    "nodemon": "^1.14.11"
+  }
+}
