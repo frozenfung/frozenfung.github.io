@@ -1,0 +1,177 @@
+/* navigator */
+#fp-nav ul li a.active span {
+  background-color: #F5A623 !important;
+}
+
+.container {
+  display: grid;
+  height: 85vh;
+  width: 80vw;
+  margin: 0 auto;
+  color: #333;
+  font-family: 'Rubik', sans-serif;
+}
+
+/* intro section */
+.intro {
+  grid-template-columns: 50% 20% 10% 20%;
+  grid-template-rows: 10% 10% 60% 10% 10%;
+}
+
+.intro .selfie {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 6;
+  filter: sepia(.5);
+  overflow: hidden;
+  padding: 10px;
+}
+
+.intro .selfie img {
+  /* height: 100%; */
+  width: 100%;
+}
+
+.intro .quote {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.4em;
+  padding: 10px;
+  /* color: #F5A623; */
+}
+
+.intro .profile {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  text-align: right;
+  font-size: .8em;
+  padding: 10px;
+}
+
+/* foodudes section */
+.foodudes {
+  grid-template-columns: 20% 5% 5% 25% 10% 25% 10%;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+
+.foodudes .paragraph {
+  text-align: justify;
+  font-size: .9vw;
+  padding: 5px;
+}
+
+.foodudes .paragraph.reveal {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: opacity .5s, transform .5s;
+  transition-delay: .8s;
+}
+
+.section.active .foodudes .paragraph.reveal {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.foodudes .paragraph-one {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.foodudes .paragraph-two {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.foodudes .paragraph-three {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.foodudes .paragraph-four {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+.foodudes .website {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.foodudes .website.reveal {
+  transform: translateX(-50px);
+  opacity: 0;
+  transition: opacity .5s, transform .5s;
+  transition-delay: 1s;
+}
+
+.section.active .foodudes .website.reveal {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.foodudes .website img {
+  width: 100%;
+}
+
+.foodudes .ipad {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  padding-top: 50px;
+}
+
+.foodudes .ipad.reveal {
+  transform: translateX(50px);
+  opacity: 0;
+  transition: opacity .5s, transform .5s;
+  transition-delay: 1.2s;
+}
+
+.section.active .foodudes .ipad.reveal {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.foodudes .ipad img {
+  width: 100%;
+}
+
+.foodudes .iphoneX {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+.foodudes .iphoneX.reveal {
+  transform: translateY(50px);
+  opacity: 0;
+  transition: opacity .5s, transform .5s;
+  transition-delay: 1.4s;
+}
+
+.section.active .foodudes .iphoneX.reveal {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.foodudes .iphoneX img {
+  width: 130%;
+}
