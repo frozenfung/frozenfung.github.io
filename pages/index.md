@@ -1,5 +1,5 @@
 <div id="fullpage">
-  <div class="section active">
+  <div class="section">
     <div class="container intro">
       <div class="decorater-one"></div>
       <div class="decorater-two"></div>
@@ -69,7 +69,26 @@
       </div>
     </div>
   </div>
-  <div class="section">
-    # Contact
+  <div class="section active">
+    <div class="container end">
+      <div class="decorater-one"></div>
+      <div class="quote reveal">
+      I HAVE A DREAM,<br/>
+      WE ARE THE REALITY.
+      </div>
+      <div class="mates reveal">
+        <img src="images/end/mates.jpg" />
+      </div>
+      <div class="contact reveal">
+        <i class="fab fa-github"></i>
+        <span>frozenfung</span>
+        <br/>
+        <i class="fab fa-twitter"></i>
+        <span>@frozenfung</span>
+        <br/>
+        <i class="fab fa-medium"></i>
+        <span>@frozenfung</span>
+      </div>
+    </div>
   </div>
 </div>

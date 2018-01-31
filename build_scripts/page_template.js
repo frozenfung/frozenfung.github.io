@@ -41,6 +41,7 @@ module.exports = {
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Rubik|Yanone+Kaffeesatz" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
   <body>
     ${md.render(pageContent)}
