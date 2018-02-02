@@ -59,13 +59,13 @@ module.exports = {
   },
   defaultMeta: {
     lang: 'en',
-    title: 'Portfolio',
+    title: 'Fung\'s Portfolio',
     stylesheets: ['./css/index.css'],
     scripts: ['./js/index.js'],
     charset: 'utf-8',
-    description: 'This is a page',
-    keywords: 'page, sample',
-    author: 'None',
+    description: 'My name is frozenfung. This is my portfolio.',
+    keywords: 'portfolio, frozenfung',
+    author: 'frozenfung',
     favicon: './images/favicon.png',
     viewport: 'width=device-width, initial-scale=1',
     extra: []
