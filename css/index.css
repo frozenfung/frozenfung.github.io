@@ -4,6 +4,45 @@
 /* #fp-nav ul li a span { */
 /*   background-color: #F5A623 !important; */
 /* } */
+.hidden {
+  display: none;
+}
+
+#fp-nav ul {
+  opacity: 0;
+  transition: opacity 1s;
+  transition-delay: .5s;
+}
+
+#fp-nav ul.show {
+  opacity: 1;
+}
+
+#preload-page {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 100vh;
+}
+
+#preload-page .nanobar {
+  height: 3px;
+}
+
+#preload-page .nanobar .bar{
+  margin: 0 auto;
+  background: #F5A623;
+}
+
+#fullpage {
+  opacity: 0;
+  transition: opacity 1s;
+  transition-delay: .2s;
+}
+
+#fullpage.show {
+  opacity: 1;
+}
 
 .section {
   overflow: hidden;
@@ -60,7 +99,6 @@
 }
 
 .intro .selfie img {
-  /* width: 60%; */
   height: 100%;
 }
 
@@ -95,12 +133,10 @@
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
-  width: 300px;
-  height: 2000px;
+  width: 15vw;
+  height: 150vh;
   background: #F5A623;
-  /* border: 50px solid #F5A623; */
-  /* border-radius: 50%; */
-  margin: -100px 0 0 -100px;
+  margin: -100px 0 0 -5vw;
 }
 
 .foodudes .paragraph {
@@ -406,8 +442,8 @@
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
-  width: 3000px;
-  height: 500px;
+  width: 200vw;
+  height: 45vh;
   background: #F5A623;
-  margin: 0 0 50px -1000px;
+  margin: 0 0 50px -300px;
 }

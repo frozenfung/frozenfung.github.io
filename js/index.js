@@ -1,5 +1,5 @@
-$(document).ready(function() {
-  console.log('document is ready.');
+window.addEventListener("load", function(event) {
+  // console.log("All resources finished loading!");
   // fullpage init
   $('#fullpage').fullpage({
     navigation: true,
@@ -17,8 +17,15 @@ $(document).ready(function() {
       }
     }
   });
+  nanobar.go(100);
+  setTimeout(function() {
+    document.querySelector('#fullpage').classList.add("show");
+    document.querySelector('#fp-nav ul').classList.add("show");
+    document.querySelector('#preload-page').classList.add("hidden");
+  }, 500);
 });
 
-$(document).load(function() {
-  console.log('document is loaded.')
+window.addEventListener("DOMContentLoaded", function(event) {
+  // console.log("DOM fully loaded and parsed");
+  nanobar.go(60);
 });

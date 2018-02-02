@@ -1,5 +1,6 @@
+<div id="preload-page"></div>
 <div id="fullpage">
-  <div class="section active">
+  <div class="section">
     <div class="container intro">
       <div class="decorater-one"></div>
       <div class="decorater-two"></div>
