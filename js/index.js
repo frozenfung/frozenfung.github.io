@@ -4,7 +4,6 @@ $(document).ready(function() {
   $('#fullpage').fullpage({
     navigation: true,
     navigationTooltips: 'left',
-    easingcss3: 'cubic-bezier(0.755, 0.05, 0.855, 0.06)',
     sectionsColor: ['whitesmoke', 'whitesmoke', 'whitesmoke', 'whitesmoke'],
     onLeave: function(index, nindex) {
       if (index == 2) {
@@ -12,6 +11,9 @@ $(document).ready(function() {
       }
       if (index == 3) {
         $('.icook>*').removeClass('reveal');
+      }
+      if (index == 4) {
+        $('.end>*').removeClass('reveal');
       }
     }
   });

@@ -53,7 +53,7 @@ try {
     var metaData = pagesMeta.hasOwnProperty(pageName+'.json')
       ? JSON.parse(pagesMeta[pageName+'.json'])
       : {};
-    metaData.title = metaData.title || pageName;
+    metaData.title = metaData.title;
     var pageContent = page[1];
     fs.writeFileSync(
       path.join(outputPath,pageName+'.html'),

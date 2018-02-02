@@ -51,7 +51,7 @@ module.exports = {
   },
   defaultMeta: {
     lang: 'en',
-    title: 'A Page',
+    title: 'Portfolio',
     stylesheets: ['./css/index.css'],
     scripts: ['./js/index.js'],
     charset: 'utf-8',

@@ -1,5 +1,5 @@
 <div id="fullpage">
-  <div class="section">
+  <div class="section active">
     <div class="container intro">
       <div class="decorater-one"></div>
       <div class="decorater-two"></div>
@@ -69,7 +69,7 @@
       </div>
     </div>
   </div>
-  <div class="section active">
+  <div class="section">
     <div class="container end">
       <div class="decorater-one"></div>
       <div class="quote reveal">
