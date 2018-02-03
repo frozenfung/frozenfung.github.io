@@ -12,36 +12,36 @@ body {
 }
 
 .oops {
-  width: 250px;
+  width: 50vw;
   margin: 0 auto;
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 5vh;
 }
 
 .forest {
-  width: 150vw;
-  height: 92px;
+  width: 100vw;
+  height: 240px;
   background-repeat: repeat-x;
 }
 
 .forest-back {
   background-image: url('../images/nosupport/tree-dark.png');
-  margin-left: -50vw;
+  margin-left: -25vw;
 }
 
 .forest-front {
   background-image: url('../images/nosupport/tree-light.png');
-  margin: -55px 0 0 -50vw;
+  margin: -150px 0 0 -23vw;
 }
 
 .oops img {
-  width: 30%;
+  width: 50%;
 }
 
 .oops p {
   color: #bbb;
   text-align: center;
-  font-size: .9em;
-  padding-top: 10vh;
+  font-size: 2.5vw;
+  padding-top: 15vh;
 }
 
