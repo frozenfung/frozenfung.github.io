@@ -1,3 +1,16 @@
+if (window.innerWidth < 992) {
+  location.pathname = 'nosupport.html';
+}
+
+
+// init nanobar
+var nanobar;
+var options = {
+  target: document.querySelector('#preload-page'),
+};
+nanobar = new Nanobar(options);
+nanobar.go(20);
+
 window.addEventListener("load", function(event) {
   // console.log("All resources finished loading!");
   // fullpage init

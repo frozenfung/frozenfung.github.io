@@ -1,0 +1,13 @@
+{
+  "lang": "en",
+  "title": "Oops! Meercate is sleeping.",
+  "stylesheets": ["./css/nosupport.css"],
+  "scripts": ["./js/nosupport.js"],
+  "charset": "utf-8",
+  "description": "Shhhhh! Meerkat is sleeping because he does not serve the browser or device you are using. Please use a modern broswer with computer and visit him again.",
+  "keywords": "portfolio, frozenfung",
+  "author": "frozenfung",
+  "favicon": "./images/favicon.png",
+  "viewport": "width=device-width, initial-scale=1",
+  "extra": []
+}

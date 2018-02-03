@@ -108,7 +108,7 @@
   grid-row-start: 2;
   grid-row-end: 3;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.5vw;
   padding: 10px;
 }
 
@@ -118,7 +118,7 @@
   grid-row-start: 4;
   grid-row-end: 5;
   text-align: right;
-  font-size: .9em;
+  font-size: .9vw;
   padding: 10px;
 }
 
@@ -342,10 +342,10 @@
   grid-row-start: 3;
   grid-row-end: 4;
   width: 100%;
-  height: 160%;
+  height: 120%;
   background: #F5A623;
   border-radius: 3px;
-  margin: -120px 0 0 60px;
+  margin: -10vh 0 0 60px;
 }
 
 .icook .decorater-three {
@@ -372,7 +372,7 @@
   grid-row-start: 2;
   grid-row-end: 3;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 1.4em;
+  font-size: 1.5vw;
   padding: 50px 0;
 }
 
@@ -419,6 +419,7 @@
   grid-row-end: 2;
   padding: 10px;
   color: #F5A623;
+  font-size: 1.2vw;
 }
 
 .end .contact.reveal {
@@ -443,7 +444,7 @@
   grid-row-start: 3;
   grid-row-end: 4;
   width: 200vw;
-  height: 45vh;
+  height: 40vh;
   background: #F5A623;
-  margin: 0 0 50px -300px;
+  margin: 0 0 15vh -20vw;
 }

@@ -36,14 +36,6 @@ module.exports = {
     ${md.render(pageContent)}
   </body>
   <script src="./js/vendors/nanobar.min.js"></script>
-  <script>
-    var nanobar;
-    var options = {
-      target: document.querySelector('#preload-page'),
-    };
-    nanobar = new Nanobar(options);
-    nanobar.go(20);
-  </script>
   ${
     pageMeta.hasOwnProperty('scripts')
       ?pageMeta.scripts.length

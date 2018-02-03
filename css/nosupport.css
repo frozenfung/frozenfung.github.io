@@ -1,0 +1,47 @@
+body {
+  background: #233658;
+}
+
+.container {
+  display: grid;
+  height: 85vh;
+  width: 80vw;
+  margin: 0 auto;
+  color: #333;
+  font-family: 'Rubik', sans-serif;
+}
+
+.oops {
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+.forest {
+  width: 150vw;
+  height: 92px;
+  background-repeat: repeat-x;
+}
+
+.forest-back {
+  background-image: url('../images/nosupport/tree-dark.png');
+  margin-left: -50vw;
+}
+
+.forest-front {
+  background-image: url('../images/nosupport/tree-light.png');
+  margin: -55px 0 0 -50vw;
+}
+
+.oops img {
+  width: 30%;
+}
+
+.oops p {
+  color: #bbb;
+  text-align: center;
+  font-size: .9em;
+  padding-top: 10vh;
+}
+
