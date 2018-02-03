@@ -2,7 +2,6 @@ if (window.innerWidth < 992) {
   location.pathname = 'nosupport.html';
 }
 
-
 // init nanobar
 var nanobar;
 var options = {
