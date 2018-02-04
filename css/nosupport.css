@@ -19,7 +19,7 @@ body {
 }
 
 .forest {
-  width: 100vw;
+  width: 105vw;
   height: 240px;
   background-repeat: repeat-x;
 }
@@ -31,17 +31,19 @@ body {
 
 .forest-front {
   background-image: url('../images/nosupport/tree-light.png');
-  margin: -150px 0 0 -23vw;
+  margin: -150px 0 0 -27vw;
 }
 
 .oops img {
-  width: 50%;
+  width: 100px;
 }
 
 .oops p {
   color: #bbb;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: .8em;
   padding-top: 15vh;
+  width: 180px;
+  margin: 0 auto;
 }
 
