@@ -12,6 +12,7 @@ module.exports = {
     <meta name="description" content="${pageMeta.description || this.defaultMeta.description}">
     <meta name="keywords" content="${pageMeta.keywords || this.defaultMeta.keywords}">
     <meta name="author" content="${pageMeta.author || this.defaultMeta.author}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     ${
       pageMeta.hasOwnProperty('extra')
         ?pageMeta.extra.length
