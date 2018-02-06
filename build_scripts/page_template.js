@@ -31,7 +31,7 @@ module.exports = {
     <link rel="icon" type="image/png" href="${pageMeta.favicon || this.defaultMeta.favicon}">
     <!-- CDNs -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik|Yanone+Kaffeesatz" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rubik|Yanone+Kaffeesatz|Caveat" rel="stylesheet">
   </head>
   <body>
     ${md.render(pageContent)}

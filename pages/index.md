@@ -29,10 +29,8 @@
     <div class="container foodudes">
       <div class="decorater-one"></div>
       <div class="paragraph paragraph-one reveal">
-        Alpha camp is a startup school where we learn skills, build stuff and finally connect with the industry. My colleague and I build a service called foodudes.The purpose is we want to solve the problem of searching good restaurants, and then we did some brain storming, finally, we consider that build a platform for people who can share their favorite restaurants with their friend is the solution we want.
-      </div>
-      <div class="paragraph paragraph-three reveal">
-        During the camp, I acted as a full-stack web developer with Ruby on Rails and Javascript. I try to design and develope application programming interface for both web and iOS. 3rd-party application like Google Map and Social network login are also implemented. However, I failed to make website RWD because of the lacking of my graphic design skill. I realize that there are lots of skill to pick up and one of them is graphic design if I would like to be a web developer.
+        Alpha camp is a startup school where we learn skills, build stuff and finally connect with the industry. My colleague and I build a service called foodudes.The purpose is we want to solve the problem of searching good restaurants, and then we did some brain storming, finally, we consider that build a platform for people who can share their favorite restaurants with their friend is the solution we want.<br/><br/>
+        During this semester, I acted as a full-stack web developer with Ruby on Rails and Javascript. I try to design and develope application programming interface for both web and iOS. 3rd-party application like Google Map and Social network login are also implemented. However, I failed to make website RWD because of the lacking of my graphic design skill. I realize that there are lots of skill to pick up and one of them is graphic design if I would like to be a web developer.
       </div>
       <div class="website reveal">
         <img src="images/foodudes/website.png">
