@@ -1,9 +1,14 @@
+html {
+  width: 100vw;
+}
+
 body {
   background: #233658;
+  overflow: hidden;
+  margin: 0;
 }
 
 .container {
-  display: grid;
   height: 85vh;
   width: 80vw;
   margin: 0 auto;
@@ -12,10 +17,11 @@ body {
 }
 
 .oops {
-  width: 50vw;
+  width: 70vw;
   margin: 0 auto;
   text-align: center;
-  padding-top: 5vh;
+  margin-top: -5vh;
+  margin-bottom: 20vh;
 }
 
 .forest {
@@ -41,9 +47,68 @@ body {
 .oops p {
   color: #bbb;
   text-align: center;
-  font-size: .8em;
+  font-size: 1.1rem;
   padding-top: 15vh;
-  width: 180px;
+  width: 100%;
   margin: 0 auto;
 }
 
+.meerkat {
+  position: relative;
+  display: inline-block;
+}
+
+.meerkat span {
+  opacity: 0;
+  color: #bbb;
+  position: absolute;
+  animation: snoring 3s infinite;
+}
+
+.meerkat .snore-0 {
+  animation-delay: 1s;
+}
+
+.meerkat .snore-1 {
+  animation-delay: 2s;
+}
+
+.meerkat .snore-2 {
+  animation-delay: 3s;
+}
+
+@keyframes snoring {
+  0% {
+    top: 10%;
+    left: 15%;
+    font-size: .8rem;
+  }
+
+  20% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  40% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  80% {
+    transform: translate3d(8px, 0, 0);
+  }
+
+  90% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  100% {
+    opacity: 0;
+    top: -50%;
+    left: 15%;
+    font-size: 2.5rem;
+  }
+}
