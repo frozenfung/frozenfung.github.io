@@ -25,7 +25,7 @@
     </div>
   </div>
   <!-- Career -->
-  <div class="section active">
+  <div class="section">
     <div class="container foodudes">
       <div class="decorater-one"></div>
       <div class="content reveal">

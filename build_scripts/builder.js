@@ -7,6 +7,7 @@ var pagesPath = './pages';
 var pagesMetaPath = './pages_meta';
 var copyFolders = ['./images', './css', './js'];
 var outputPath = './build';
+var CNAME = './CNAME';
 
 // First delete everything in the build directory.
 console.log('Cleaning previous build...');
@@ -76,6 +77,9 @@ catch (err){
   console.log('Error during folder copying: '+err);
   process.exit(1);
 }
+
+// Copy CNAME
+fs.copySync(CNAME, path.join(outputPath,CNAME));
 
 // Process complete.
 console.log('Done!');
