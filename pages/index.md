@@ -25,13 +25,15 @@
     </div>
   </div>
   <!-- Career -->
-  <div class="section">
+  <div class="section active">
     <div class="container foodudes">
       <div class="decorater-one"></div>
-      <div class="title reveal">Vista</div>
-      <div class="subtitle reveal">you don't know what you don't know</div>
-      <div class="paragraph paragraph-one reveal">
-        After graduation, I joined Alphacamp. Alphacamp is a startup school where we learn skills, build stuff and finally connect us with the industry. My classmates and I build a service called foodudes in three months. It is the final solution for searching terrific restaurant by a platform people who can share their favorite restaurants with their friend. In this project, I acted as a full-stack web developer with Ruby on Rails and Javascript.
+      <div class="content reveal">
+        <div class="title">Vista</div>
+        <div class="subtitle">Try fast, fail fast</div>
+        <div class="paragraph paragraph-one">
+          After graduation, I joined Alphacamp. Alphacamp is a startup school where we learn skills, build stuff and finally connect us with the industry. My classmates and I build a service called foodudes in three months. It is the final solution for searching terrific restaurant by a platform people who can share their favorite restaurants with their friend. In this project, I acted as a full-stack web developer with Ruby on Rails and Javascript. However, the most important lesson I learn is “Try fast, fail fast” to validate whether your idea works or not by publishing your minimum valuable product to the market ASAP.
+        </div>
       </div>
       <div class="website reveal">
         <img src="images/foodudes/website.png">
@@ -50,10 +52,12 @@
         <img src="images/icook/MBPr.png">
       </div>
       <div class="decorater-one"></div>
-      <div class="title reveal">Foundation</div>
-      <div class="subtitle reveal">Try fast, fail fast</div>
-      <div class="paragraph paragraph-one reveal">
-        iCook is the biggest recipe planform in Taiwan. 100,000 recipes has been shared by 300,000 cook-lover since September 2012. I learned modern web development in advanced from other senior developers. However the most important lesson I learn is “Try fast, fail fast” to validate whether your idea works or not by publishing your minimum valuable product to the market ASAP.
+      <div class="content reveal">
+        <div class="title">Foundation</div>
+        <div class="subtitle">you don't know what you don't know</div>
+        <div class="paragraph paragraph-one">
+          iCook is the biggest recipe planform in Taiwan. 100,000 recipes has been shared by 300,000 cook-lover since September 2012. I learned modern web development techniques in advanced by collaborating with other senior developers in my team.
+        </div>
       </div>
     </div>
   </div>

@@ -9,8 +9,6 @@ body {
 }
 
 .container {
-  height: 85vh;
-  width: 80vw;
   margin: 0 auto;
   color: #333;
   font-family: 'Rubik', sans-serif;
@@ -25,19 +23,20 @@ body {
 }
 
 .forest {
-  width: 105vw;
+  width: 100%;
   height: 240px;
   background-repeat: repeat-x;
 }
 
 .forest-back {
   background-image: url('../images/nosupport/tree-dark.png');
-  margin-left: -25vw;
 }
 
 .forest-front {
   background-image: url('../images/nosupport/tree-light.png');
-  margin: -150px 0 0 -27vw;
+  background-position-x: -10vw;
+  position: relative;
+  top: -14vh;
 }
 
 .oops img {

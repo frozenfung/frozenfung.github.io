@@ -1,7 +1,7 @@
 <div class="container">
+  <div class="forest forest-back"></div>
+  <div class="forest forest-front"></div>
   <div class="oops">
-    <div class="forest forest-back"></div>
-    <div class="forest forest-front"></div>
     <div class="meerkat">
       <span class="snore-0">z</span>
       <span class="snore-1">z</span>
