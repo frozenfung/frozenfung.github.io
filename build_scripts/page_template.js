@@ -44,9 +44,10 @@ module.exports = {
         :''
       :this.defaultMeta.scripts.map(value => `<script src="${value}"></script>`)
   }
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <script defer src="https://unpkg.com/tippy.js@2.2.3/dist/tippy.all.min.js"></script>
 </html>
 `;
   },

@@ -35,22 +35,22 @@
           After graduation, I joined Alphacamp. Alphacamp is a startup school where we learn skills, build stuff and finally connect us with the industry. My classmates and I build a service called foodudes in three months. It is the final solution for searching terrific restaurant by a platform people who can share their favorite restaurants with their friend. In this project, I acted as a full-stack web developer with Ruby on Rails and Javascript. However, the most important lesson I learn is “Try fast, fail fast” to validate whether your idea works or not by publishing your minimum valuable product to the market ASAP.
         </div>
       </div>
-      <div class="website reveal">
+      <a href="#" class="website reveal" title="Service is not supported anymore :$">
         <img src="images/foodudes/website.png">
-      </div>
-      <div class="ipad reveal">
+      </a>
+      <a href="#" class="ipad reveal" title="Service is not supported anymore :$">
         <img src="images/foodudes/ipad.png">
-      </div>
-      <div class="iphoneX reveal">
+      </a>
+      <a href="#" class="iphoneX reveal" title="Service is not supported anymore :$">
         <img src="images/foodudes/iphoneX.png">
-      </div>
+      </a>
     </div>
   </div>
   <div class="section">
     <div class="container icook">
-      <div class="MBPr reveal">
+      <a href="https://icook.tw" target="new" class="MBPr reveal">
         <img src="images/icook/MBPr.png">
-      </div>
+      </a>
       <div class="decorater-one"></div>
       <div class="content reveal">
         <div class="title">Foundation</div>
@@ -72,14 +72,22 @@
         <img src="images/end/mates.jpg" />
       </div>
       <div class="contact reveal">
-        <i class="fab fa-github"></i>
-        <span>frozenfung</span>
-        <br/>
-        <i class="fab fa-twitter"></i>
-        <span>@frozenfung</span>
-        <br/>
-        <i class="fab fa-medium"></i>
-        <span>@frozenfung</span>
+        <a href="https://github.com/frozenfung" target="new">
+          <i class="fab fa-github"></i>
+          <span>frozenfung</span>
+        </a>
+        <a href="https://twitter.com/frozenfung" target="new">
+          <i class="fab fa-twitter"></i>
+          <span>@frozenfung</span>
+        </a>
+        <a href="https://medium.com/@frozenfung" target="new">
+          <i class="fab fa-medium"></i>
+          <span>@frozenfung</span>
+        </a>
+        <a href="mailto:frozenfung@gmail.com">
+          <i class="fas fa-envelope"></i>
+          <span>frozenfung@gmail.com</span>
+        </a>
       </div>
     </div>
   </div>

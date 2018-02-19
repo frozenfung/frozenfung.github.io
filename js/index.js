@@ -35,6 +35,13 @@ window.addEventListener("load", function(event) {
     document.querySelector('#fp-nav ul').classList.add("show");
     document.querySelector('#preload-page').classList.add("hidden");
   }, 500);
+
+  // tooltips
+  tippy('[title]', {
+    placement: 'top',
+    theme: 'orange',
+    arrow: true
+  })
 });
 
 window.addEventListener("DOMContentLoaded", function(event) {

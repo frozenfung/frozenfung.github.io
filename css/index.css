@@ -48,6 +48,16 @@
   overflow: hidden;
 }
 
+.tippy-tooltip.orange-theme {
+  background-color: #F5A623;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.tippy-tooltip.orange-theme .tippy-arrow {
+  border: 0px solid #F5A623;
+}
+
 .container {
   display: grid;
   height: 85vh;
@@ -58,7 +68,7 @@
 
 .title {
   font-family: 'Passion One', cursive;
-  font-size: 8rem;
+  font-size: 5rem;
 }
 
 .subtitle {
@@ -255,8 +265,8 @@
 
 /* icook section */
 .icook {
-  grid-template-columns: 50% 5% 45%;
-  grid-template-rows: 20% 13% 20% 47%;
+  grid-template-columns: 60% 5% 35%;
+  grid-template-rows: 20% 20% 60%;
 }
 
 .icook .MBPr {
@@ -264,6 +274,7 @@
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
+  z-index: 10;
 }
 
 .icook .MBPr.reveal {
@@ -279,7 +290,7 @@
 }
 
 .icook .MBPr img {
-  width: 80%;
+  width: 100%;
 }
 
 .icook .paragraph {
@@ -290,8 +301,8 @@
 .icook .content {
   grid-column-start: 3;
   grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .icook .content.reveal
@@ -312,12 +323,12 @@
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 1;
-  grid-row-end: 3;
-  width: 70vw;
+  grid-row-end: 2;
+  width: 100vw;
   height: 200vh;
   background: #F5A623;
   border-radius: 3px;
-  margin: -30vh 0 0 -10vh;
+  margin: -30vh 0 0 -30vh;
 }
 
 .end {
@@ -337,14 +348,14 @@
 }
 
 .end .quote.reveal {
-  transform: translateX(-30px);
+  transform: translateY(-30px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
   transition-delay: .8s;
 }
 
 .section.active .end .quote.reveal {
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
 }
 
@@ -357,14 +368,14 @@
 }
 
 .end .mates.reveal {
-  transform: translateX(-30px);
+  transform: translateY(-30px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
   transition-delay: .8s;
 }
 
 .section.active .end .mates.reveal {
-  transform: translateX(0);
+  transform: translateY(0);
   opacity: 1;
 }
 
@@ -395,8 +406,20 @@
   opacity: 1;
 }
 
+.end .contact>a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.end .contact>a:active {
+  color: inherit;
+}
+
 .end .contact span {
   color: #333;
+  padding-left: 5px;
 }
 
 .end .decorater-one {
