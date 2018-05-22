@@ -167,6 +167,16 @@
   margin: -10vh 0 0 -50vw;
 }
 
+.foodudes .decorater-one.reveal {
+  height: 0vh;
+}
+
+.section.active .foodudes .decorater-one.reveal {
+  height: 150vh;
+  transition: height .8s;
+  transition-delay: .8s;
+}
+
 .foodudes .paragraph {
   text-align: left;
   padding: 5px;
@@ -177,7 +187,7 @@
   transform: translateY(-50px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: .8s;
+  transition-delay: 1.2s;
 }
 
 .section.active .foodudes .content.reveal
@@ -204,7 +214,7 @@
   transform: translateY(50px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: .9s;
+  transition-delay: 1.5s;
 }
 
 .section.active .foodudes .website.reveal {
@@ -228,7 +238,7 @@
   transform: translateY(50px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: .9s;
+  transition-delay: 1.7s;
 }
 
 .section.active .foodudes .ipad.reveal {
@@ -251,7 +261,7 @@
   transform: translateY(50px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: .9s;
+  transition-delay: 1.9s;
 }
 
 .section.active .foodudes .iphoneX.reveal {
@@ -310,7 +320,7 @@
   transform: translateY(50px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: 1s;
+  transition-delay: 1.4s;
 }
 
 .section.active .icook .content.reveal
@@ -324,11 +334,21 @@
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 2;
-  width: 100vw;
-  height: 200vh;
+  width: 80vw;
+  height: 150vh;
   background: #F5A623;
   border-radius: 3px;
   margin: -30vh 0 0 -30vh;
+}
+
+.icook .decorater-one.reveal {
+  height: 0vh;
+}
+
+.section.active .icook .decorater-one.reveal {
+  height: 150vh;
+  transition: height .8s;
+  transition-delay: 1s;
 }
 
 .end {
@@ -351,7 +371,7 @@
   transform: translateY(-30px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: .8s;
+  transition-delay: 1.4s;
 }
 
 .section.active .end .quote.reveal {
@@ -371,7 +391,7 @@
   transform: translateY(-30px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: .8s;
+  transition-delay: 1.4s;
 }
 
 .section.active .end .mates.reveal {
@@ -398,7 +418,7 @@
   transform: translateY(30px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: 1s;
+  transition-delay: 1.6s;
 }
 
 .section.active .end .contact.reveal {
@@ -427,8 +447,18 @@
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
-  width: 200vw;
+  width: 120vw;
   height: 40vh;
   background: #F5A623;
   margin: 0 0 15vh -20vw;
+}
+
+.end .decorater-one.reveal {
+  width: 0vw;
+}
+
+.section.active .end .decorater-one.reveal {
+  width: 120vw;
+  transition: width .8s;
+  transition-delay: .8s;
 }

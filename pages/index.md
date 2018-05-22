@@ -27,7 +27,7 @@
   <!-- Career -->
   <div class="section">
     <div class="container foodudes">
-      <div class="decorater-one"></div>
+      <div class="decorater-one reveal"></div>
       <div class="content reveal">
         <div class="title">Vista</div>
         <div class="subtitle">Try fast, fail fast</div>
@@ -51,7 +51,7 @@
       <a href="https://icook.tw" target="new" class="MBPr reveal">
         <img src="images/icook/MBPr.png">
       </a>
-      <div class="decorater-one"></div>
+      <div class="decorater-one reveal"></div>
       <div class="content reveal">
         <div class="title">Foundation</div>
         <div class="subtitle">you don't know what you don't know</div>
@@ -63,7 +63,7 @@
   </div>
   <div class="section">
     <div class="container end">
-      <div class="decorater-one"></div>
+      <div class="decorater-one reveal"></div>
       <div class="quote reveal">
       I HAVE A DREAM,<br/>
       WE ARE THE REALITY.

@@ -15,7 +15,6 @@ window.addEventListener("load", function(event) {
   // fullpage init
   $('#fullpage').fullpage({
     navigation: true,
-    navigationTooltips: 'left',
     sectionsColor: ['whitesmoke', 'whitesmoke', 'whitesmoke', 'whitesmoke'],
     onLeave: function(index, nindex) {
       if (index == 2) {
