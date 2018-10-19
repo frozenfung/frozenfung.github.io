@@ -24,7 +24,8 @@
       </div>
     </div>
   </div>
-  <!-- Career -->
+  <!-- Career Start -->
+  <!-- ALPHA Camp -->
   <div class="section">
     <div class="container foodudes">
       <div class="decorater-one reveal"></div>
@@ -46,6 +47,7 @@
       </a>
     </div>
   </div>
+  <!-- iCook -->
   <div class="section">
     <div class="container icook">
       <a href="https://icook.tw" target="new" class="MBPr reveal">
@@ -61,6 +63,24 @@
       </div>
     </div>
   </div>
+  <!-- CakeResume -->
+  <div class="section">
+    <div class="container cakeresume">
+      <a href="https://cakeresume.com" target="new" class="resume reveal">
+        <img src="images/cakeresume/resume.png">
+      </a>
+      <div class="decorater-one reveal"></div>
+      <div class="content reveal">
+        <div class="title">Startup</div>
+        <div class="subtitle">FUCK OFF, <br/> ASS WHOLE</div>
+        <div class="paragraph paragraph-one">
+        CakeResume is an online tool to help everyone design their own resume. As the first employee in the company I need to take care of different aspects instead of developing dedicately only. Work in the largest incubator in Asia not only board my horizons but also connect me with many experienced talents. In the meanwhile, I tried UI design for the components which are used frequently in our services
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- DMMT -->
+  <!-- Career End -->
   <div class="section">
     <div class="container end">
       <div class="decorater-one reveal"></div>
