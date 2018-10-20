@@ -33,7 +33,7 @@
         <div class="title">Vista</div>
         <div class="subtitle">Try fast, fail fast</div>
         <div class="paragraph paragraph-one">
-          After graduation, I joined Alphacamp. Alphacamp is a startup school where we learn skills, build stuff and finally connect us with the industry. My classmates and I build a service called foodudes in three months. It is the final solution for searching terrific restaurant by a platform people who can share their favorite restaurants with their friend. In this project, I acted as a full-stack web developer with Ruby on Rails and Javascript. However, the most important lesson I learn is “Try fast, fail fast” to validate whether your idea works or not by publishing your minimum valuable product to the market ASAP.
+          After graduation, I joined Alphacamp which is the largest bootcamp in Aisa. Not only it provides environment where I could learn skills of web development and build real product, but also it connects us to information technology industry. We built a online service called foodudes from 0 to 1 in three months. It's a final solution for searching terrific restaurants by a platform people who can share their favorite restaurants with their friend. The most important lesson I learn is “Try fast, fail fast” to validate whether your idea works or not by publishing your minimum valuable product to the market ASAP.
         </div>
       </div>
       <a href="#" class="website reveal" title="Service is not supported anymore :$">
@@ -80,6 +80,21 @@
     </div>
   </div>
   <!-- DMMT -->
+  <div class="section">
+    <div class="container dmmt">
+      <a href="https://dmmt.design" target="new" class="interviewing reveal">
+        <img src="images/dmmt/interviewing.gif">
+      </a>
+      <div class="decorater-one reveal"></div>
+      <div class="content reveal">
+        <div class="title">Establish</div>
+        <div class="subtitle">DON'T MAKE<br/>ME THINK</div>
+      </div>
+      <div class="paragraph paragraph-one reveal">
+      Build a brand is a new approach for me to know myself again in different spect.  Our mission is going to provide a ultimate solution for business project depend on various circumstances. In whole picture, we hold a kickoff meeting to dig out your demand, layout design, develope web or mobile application and afterward project-closed interview.
+      </div>
+    </div>
+  </div>
   <!-- Career End -->
   <div class="section">
     <div class="container end">
