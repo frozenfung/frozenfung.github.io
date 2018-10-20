@@ -483,7 +483,7 @@
   transform: translateX(50px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: 1.4s;
+  transition-delay: 1s;
 }
 
 .section.active .dmmt .paragraph-one.reveal {
@@ -510,7 +510,7 @@
 .section.active .dmmt .decorater-one.reveal {
   height: 20vw;
   transform: rotate(-10deg);
-  transition: height .6s, transform .6s;
+  transition: height .5s, transform .5s;
   transition-delay: .4s;
 }
 

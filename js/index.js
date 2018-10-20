@@ -17,7 +17,7 @@ window.addEventListener("load", function(event) {
     navigation: true,
     sectionsColor: ['whitesmoke', 'whitesmoke', 'whitesmoke', 'whitesmoke'],
     onLeave: function(index) {
-      console.log(index)
+      // console.log(index)
       if (index == 2) {
         $('.foodudes>*').removeClass('reveal');
       }
@@ -28,6 +28,9 @@ window.addEventListener("load", function(event) {
         $('.cakeresume>*').removeClass('reveal');
       }
       if (index == 5) {
+        $('.dmmt>*').removeClass('reveal');
+      }
+      if (index == 6) {
         $('.end>*').removeClass('reveal');
       }
     }
