@@ -496,6 +496,9 @@
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
+  width: 200vw;
+  height: 60vw;
+  transform: rotate(-80deg);
   background: #F5A623;
   margin: 10vh 0 0 -30vw;
   z-index: -1;
