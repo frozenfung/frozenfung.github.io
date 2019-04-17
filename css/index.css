@@ -295,7 +295,7 @@
   transform: translateY(-50px);
   opacity: 0;
   transition: opacity .5s, transform .5s;
-  transition-delay: .8s;
+  transition-delay: 1.2s;
 }
 
 .section.active .icook .MBPr.reveal {
@@ -352,7 +352,7 @@
 .section.active .icook .decorater-one.reveal {
   height: 150vh;
   transition: height .8s;
-  transition-delay: 1s;
+  transition-delay: .4s;
 }
 
 /* CakeResume */
@@ -497,8 +497,8 @@
   grid-row-start: 1;
   grid-row-end: 2;
   width: 200vw;
-  height: 60vw;
-  transform: rotate(-80deg);
+  height: 20vw;
+  transform: rotate(-10deg);
   background: #F5A623;
   margin: 10vh 0 0 -30vw;
   z-index: -1;
@@ -573,6 +573,7 @@
 
 .end .mates img {
   width: 100%;
+  filter: grayscale(80%);
 }
 
 .end .contact {
