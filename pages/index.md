@@ -80,7 +80,7 @@
     </div>
   </div>
   <!-- DMMT -->
-  <div class="section">
+  <div class="section active">
     <div class="container dmmt">
       <a href="https://dmmt.design" target="new" class="interviewing reveal">
         <img src="images/dmmt/interviewing.gif">

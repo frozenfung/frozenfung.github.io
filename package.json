@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build-pages": "node ./build_scripts/builder.js",
-    "start": "concurrently --kill-others \"nodemon -e js,json,css,md -i build -x \\\"npm run build-pages\\\"\" \"live-server ./build\"",
+    "start": "concurrently --kill-others \"nodemon -e js,json,css,md -i build -x \\\"npm run build-pages\\\"\" \"live-server --port=8081 ./build\"",
     "deploy": "git push origin src -f && git subtree split --prefix build -b master && git push -f origin master:master && git branch -D master"
   },
   "repository": {
