@@ -91,7 +91,7 @@
         <div class="subtitle">DON'T MAKE<br/>ME THINK</div>
       </div>
       <div class="paragraph paragraph-one reveal">
-      Build a brand is a new approach for me to know myself again in different spect.  Our mission is going to provide a ultimate solution for business project depend on various circumstances. In whole picture, we hold a kickoff meeting to dig out your demand, layout design, develope web or mobile application and afterward project-closed interview.
+      Build a brand is a new approach for me to know myself again with different aspect.  Our mission is going to provide a ultimate solution for business project depend on various circumstances. In whole picture, we hold a kickoff meeting to dig out your demand, layout design, develope web or mobile application and afterward project-closed interview.
       </div>
     </div>
   </div>
